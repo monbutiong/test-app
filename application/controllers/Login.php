@@ -12,8 +12,7 @@ class Login extends CI_Controller {
  	}
 
 	public function index()
-	{  
-		//echo  password_hash('password', PASSWORD_DEFAULT);
+	{   
 		$this->load->view('login');
 	}
 

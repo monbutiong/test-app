@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Login</title> 
+	<title>Register</title> 
 	<!-- Bootstrap -->
     <link href="<?=base_url('assets/css/bootstrap.min.css')?>" rel="stylesheet">
     <!-- toast alert css-->
@@ -14,12 +14,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 <body>
 
-	<form method="post" action="<?=base_url('validate-login')?>">
+	<form method="post" action="<?=base_url('validate-registration')?>">
 
 	 	<div class="container mt-5">
 
-	 		 <h3>Login</h3>
+	 		 <h3>Register</h3>
  
+	 		 <div class="form-group">
+	 		   <label for="exampleInputEmail1">Name</label>
+	 		   <input type="text" name="name" class="form-control"> 
+	 		 </div>
+
 	 		 <div class="form-group">
 	 		   <label for="exampleInputEmail1">Username</label>
 	 		   <input type="text" name="username" class="form-control"> 
@@ -30,7 +35,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	 		   <input type="password" name="password" class="form-control"> 
 	 		 </div>
 
-	 		 <button type="submit" class="btn btn-primary">Login</button> | <a href="<?=base_url('register')?>">Register</a>
+	 		 <button type="submit" class="btn btn-primary">Register</button> | <a class="btn btn-warning text-white" href="<?=base_url()?>">Cancel</a>
 
 	 	</div>
 

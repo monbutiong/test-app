@@ -56,6 +56,10 @@ $route['translate_uri_dashes'] = FALSE;
 // validate login
 $route['validate-login'] = 'login/validate';
 
+// registration routes
+$route['register'] = 'register';
+$route['validate-registration'] = 'register/validate';
+
 // employee routes
 $route['employee'] = 'employee';
 
