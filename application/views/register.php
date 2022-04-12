@@ -22,17 +22,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  
 	 		 <div class="form-group">
 	 		   <label for="exampleInputEmail1">Name</label>
-	 		   <input type="text" name="name" class="form-control"> 
+	 		   <input type="text" name="name" class="form-control" required="required"> 
 	 		 </div>
 
 	 		 <div class="form-group">
 	 		   <label for="exampleInputEmail1">Username</label>
-	 		   <input type="text" name="username" class="form-control"> 
+	 		   <input type="text" name="username" class="form-control" required="required"> 
 	 		 </div>
 
 	 		 <div class="form-group">
 	 		   <label for="exampleInputEmail1">Password</label>
-	 		   <input type="password" name="password" class="form-control"> 
+	 		   <input type="password" name="password" class="form-control" required="required"> 
 	 		 </div>
 
 	 		 <button type="submit" class="btn btn-primary">Register</button> | <a class="btn btn-warning text-white" href="<?=base_url()?>">Cancel</a>
