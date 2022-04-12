@@ -21,7 +21,7 @@ class Login extends CI_Controller {
 	{
 		$result = $this->user->validate_login();
 
-		if($result->id){
+		if(@$result->id){
 			
 			$this->session->set_flashdata('success', 'Login Success.');
 

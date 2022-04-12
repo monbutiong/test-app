@@ -7,4 +7,3 @@ set application/config/config.php
 
 set application/config/database.php
   -update databse connection
- 
